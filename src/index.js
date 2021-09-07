@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Root from './view/Root';
+import Root from 'view/Root';
 
 ReactDOM.render(
   <React.StrictMode>
