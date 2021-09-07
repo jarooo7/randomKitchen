@@ -1,7 +1,8 @@
 import React from 'react';
+import MainTemplate from 'templates/MainTemplate';
 
 const Root = () => {
-  return <div>a</div>;
+  return <MainTemplate>a</MainTemplate>;
 };
 
 export default Root;
