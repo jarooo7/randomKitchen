@@ -41,7 +41,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-size: 1.4rem;
     font-family: ${({ theme }) => theme.font.primary};
-    background-color: ${({ theme }) => theme.color.background};
+    background: linear-gradient(-60deg, ${({ theme }) => theme.color.background.primary} 0%, ${({ theme }) => theme.color.background.secondary} 100%) ;
     color: ${({ theme }) => theme.color.text};
     -webkit-backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
